@@ -158,7 +158,7 @@ trait ManagesAccount
 
         // Create payload.
         $options = array_merge([
-            'type' => $type,
+            //'type' => $type,
             'email' => $this->stripeAccountEmail(),
         ], $options);
 
